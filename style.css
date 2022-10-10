@@ -5,3 +5,27 @@
     /* border: 1px solid red; */
     text-align: center;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continer{
+    height: 750px;
+    width: 750px; 
+    border: 1px solid #150050;
+}
+
+.square{
+    border: 1px solid #3F0071;
+    flex: 1 1 auto;
+}
+
+.arrange{
+    display: flex;
+    border: 1px solid #3F0071;
+}
