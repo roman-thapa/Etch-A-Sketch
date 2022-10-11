@@ -1,6 +1,6 @@
 let numberOfSquare = 35;
 
-container = document.querySelector('.container');
+const container = document.querySelector('.container');
 
 for(i=0; i<=numberOfSquare; i++){
     let arrange = document.createElement('div');
@@ -12,6 +12,10 @@ for(i=0; i<=numberOfSquare; i++){
         square.style.height = "calc(500px / var(--numberOfSquare)";
         square.style.width = "calc(500px / var(--numberOfSquare)";
         arrange.appendChild(square);
+        square.onmouseover = function() {
+            square.style.backgroundColor = "#FB2576";
+        }
     }
     container.appendChild(arrange);
 }
+
