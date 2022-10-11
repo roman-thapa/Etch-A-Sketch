@@ -1,6 +1,6 @@
 let numberOfSquare = 35;
 
-const container = document.querySelector('.container');
+let container = document.querySelector('.container');
 
 for(i=0; i<=numberOfSquare; i++){
     let arrange = document.createElement('div');
@@ -19,3 +19,7 @@ for(i=0; i<=numberOfSquare; i++){
     container.appendChild(arrange);
 }
 
+let reset = document.querySelector('.reset');
+reset.addEventListener('click',() =>{
+    location.reload();
+});
