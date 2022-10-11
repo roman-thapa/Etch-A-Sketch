@@ -2,7 +2,6 @@
     background-color: #000000;
     color: #FB2576;
     font-size: 1.5rem;
-    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -12,12 +11,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.continer{
-    height: 500px;
-    width: 500px; 
-    border: 1px solid #150050;
 }
 
 .square{
