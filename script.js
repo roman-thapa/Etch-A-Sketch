@@ -8,9 +8,9 @@ for(i=0; i<=numberOfSquare; i++){
     for (j=0; j<=numberOfSquare; j++){
         let square = document.createElement("div");
         square.className = 'square';
-        document.documentElement.style.setProperty('--number', numberOfSquare);
-        square.style.height = "calc(500px / var(--number)";
-        square.style.width = "calc(500px / var(--number)";
+        document.documentElement.style.setProperty('--numberOfSquare', numberOfSquare);
+        square.style.height = "calc(500px / var(--numberOfSquare)";
+        square.style.width = "calc(500px / var(--numberOfSquare)";
         arrange.appendChild(square);
     }
     container.appendChild(arrange);
