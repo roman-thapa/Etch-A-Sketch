@@ -1,4 +1,4 @@
-let numberOfSquare = 35;
+let numberOfSquare = 100;
 
 let container = document.querySelector('.container');
 
