@@ -15,17 +15,16 @@ body{
 }
 
 .continer{
-    height: 750px;
-    width: 750px; 
+    height: 500px;
+    width: 500px; 
     border: 1px solid #150050;
 }
 
 .square{
     border: 1px solid #3F0071;
-    flex: 1 1 auto;
+    flex: 1;
 }
 
 .arrange{
     display: flex;
-    border: 1px solid #3F0071;
 }
