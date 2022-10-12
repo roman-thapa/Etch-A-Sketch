@@ -1,5 +1,5 @@
-let numberOfSquare = 32;
-let reset = document.querySelector('.reset');
+let numberOfSquare = 16;
+let reset = document.querySelector('.resetButton');
 let container = document.querySelector('.container');
 
 for(i=0; i<=numberOfSquare; i++){
@@ -20,6 +20,9 @@ for(i=0; i<=numberOfSquare; i++){
 }
 
 reset.addEventListener('click',() =>{
-    // location.reload();
-    const resetColor = document.querySelectorAll('.square');
+    let resetColor = document.querySelectorAll('.square');
+    for (let i = 0; i < resetColor.length; i++) {
+        console.log(resetColor[i]);
+        resetColor[i].style.backgroundColor = "#000000";
+      }
 });
