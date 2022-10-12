@@ -1,5 +1,5 @@
-let numberOfSquare = 16;
-
+let numberOfSquare = 32;
+let reset = document.querySelector('.reset');
 let container = document.querySelector('.container');
 
 for(i=0; i<=numberOfSquare; i++){
@@ -19,7 +19,7 @@ for(i=0; i<=numberOfSquare; i++){
     container.appendChild(arrange);
 }
 
-let reset = document.querySelector('.reset');
 reset.addEventListener('click',() =>{
-    location.reload();
+    // location.reload();
+    const resetColor = document.querySelectorAll('.square');
 });
